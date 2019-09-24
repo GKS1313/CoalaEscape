@@ -24,8 +24,8 @@ room.keypad.setWidth(50) // 크기 조절
 room.locateObject(room.keypad, 930, 250) // 위치 변경
 
 room.keypad.onClick = function() {
-	printMessage("올해는 몇 년도?")
-	showKeypad("number", "2019" , function(){ // 키패드 1 - 숫자4자리
+	printMessage("객체지향 프로그래밍 04분반 강의실은?")
+	showKeypad("number", "8310" , function(){ // 키패드 1 - 숫자4자리
 		room.door.unlock() // door의 잠금을 연다
 		printMessage("잠금장치가 열리는 소리가 들렸다.")
 	 })
